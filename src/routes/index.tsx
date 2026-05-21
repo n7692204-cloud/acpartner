@@ -165,7 +165,7 @@ function Hero() {
                 </div>
                 <div>
                   <p className="text-xs text-foreground/60">Średni zarobek</p>
-                  <p className="text-lg font-bold">8 000+ zł / mc</p>
+                  <p className="text-lg font-bold">8 000+ zł</p>
                 </div>
               </div>
             </div>
