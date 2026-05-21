@@ -13,6 +13,10 @@ import {
   MapPin,
   Menu,
   X,
+  Fuel,
+  Users,
+  Settings2,
+  Snowflake,
 } from "lucide-react";
 
 export const Route = createFileRoute("/")({
