@@ -20,6 +20,7 @@ import {
 } from "lucide-react";
 import fabiaImg from "@/assets/fabia.png";
 import yarisImg from "@/assets/yaris.png";
+import logoAc from "@/assets/logo-ac.png";
 
 export const Route = createFileRoute("/")({
   component: Index,
