@@ -18,6 +18,8 @@ import {
   Settings2,
   Snowflake,
 } from "lucide-react";
+import fabiaImg from "@/assets/fabia.png";
+import yarisImg from "@/assets/yaris.png";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -516,6 +518,7 @@ function Cars() {
     {
       name: "Skoda Fabia",
       tag: "Ekonomiczna",
+      image: fabiaImg,
       desc: "Zwinna, oszczędna i niezawodna. Idealna do miejskich kursów.",
       specs: [
         { icon: Users, label: "4 pasażerów" },
@@ -528,6 +531,7 @@ function Cars() {
     {
       name: "Toyota Yaris",
       tag: "Hybryda",
+      image: yarisImg,
       desc: "Hybrydowy napęd, niskie spalanie i komfort jazdy. Doskonała na długie zmiany.",
       specs: [
         { icon: Users, label: "4 pasażerów" },
@@ -560,10 +564,10 @@ function Cars() {
               className="group overflow-hidden rounded-3xl border border-border bg-white transition hover:border-primary hover:shadow-xl hover:shadow-primary/10"
             >
               <div className="relative flex h-56 items-center justify-center overflow-hidden bg-gradient-to-br from-primary/10 via-primary/5 to-transparent">
-                <Car
-                  size={140}
-                  strokeWidth={1.2}
-                  className="text-primary transition duration-500 group-hover:scale-110"
+                <img
+                  src={c.image}
+                  alt={c.name}
+                  className="h-full w-full object-contain p-4 transition duration-500 group-hover:scale-110"
                 />
                 <span className="absolute left-5 top-5 rounded-full bg-primary px-3 py-1 text-xs font-semibold text-primary-foreground">
                   {c.tag}
