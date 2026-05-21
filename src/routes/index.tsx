@@ -50,6 +50,7 @@ function Nav() {
   const [open, setOpen] = useState(false);
   const links = [
     { href: "#oferta", label: "Oferta" },
+    { href: "#auta", label: "Auta" },
     { href: "#dlaczego", label: "Dlaczego my" },
     { href: "#jak", label: "Jak zacząć" },
     { href: "#kontakt", label: "Kontakt" },
