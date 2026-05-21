@@ -509,6 +509,104 @@ function Footer() {
   );
 }
 
+function Cars() {
+  const cars = [
+    {
+      name: "Skoda Fabia",
+      tag: "Ekonomiczna",
+      desc: "Zwinna, oszczędna i niezawodna. Idealna do miejskich kursów.",
+      specs: [
+        { icon: Users, label: "4 pasażerów" },
+        { icon: Fuel, label: "Benzyna / LPG" },
+        { icon: Settings2, label: "Manual" },
+        { icon: Snowflake, label: "Klimatyzacja" },
+      ],
+      price: "od 750 zł / tydzień",
+    },
+    {
+      name: "Toyota Yaris",
+      tag: "Hybryda",
+      desc: "Hybrydowy napęd, niskie spalanie i komfort jazdy. Doskonała na długie zmiany.",
+      specs: [
+        { icon: Users, label: "4 pasażerów" },
+        { icon: Fuel, label: "Hybryda" },
+        { icon: Settings2, label: "Automat" },
+        { icon: Snowflake, label: "Klimatyzacja" },
+      ],
+      price: "od 950 zł / tydzień",
+    },
+  ];
+  return (
+    <section id="auta" className="bg-white py-20 md:py-28">
+      <div className="mx-auto max-w-6xl px-4">
+        <div className="mx-auto max-w-2xl text-center">
+          <span className="text-sm font-semibold uppercase tracking-wider text-primary">
+            Nasza flota
+          </span>
+          <h2 className="mt-3 text-3xl font-bold tracking-tight md:text-4xl">
+            Auta gotowe do pracy
+          </h2>
+          <p className="mt-4 text-foreground/70">
+            Wybierz auto dopasowane do swojego stylu jazdy. Wszystkie pojazdy
+            są w pełni ubezpieczone i serwisowane.
+          </p>
+        </div>
+        <div className="mt-14 grid gap-8 md:grid-cols-2">
+          {cars.map((c) => (
+            <div
+              key={c.name}
+              className="group overflow-hidden rounded-3xl border border-border bg-white transition hover:border-primary hover:shadow-xl hover:shadow-primary/10"
+            >
+              <div className="relative flex h-56 items-center justify-center overflow-hidden bg-gradient-to-br from-primary/10 via-primary/5 to-transparent">
+                <Car
+                  size={140}
+                  strokeWidth={1.2}
+                  className="text-primary transition duration-500 group-hover:scale-110"
+                />
+                <span className="absolute left-5 top-5 rounded-full bg-primary px-3 py-1 text-xs font-semibold text-primary-foreground">
+                  {c.tag}
+                </span>
+              </div>
+              <div className="p-7">
+                <div className="flex items-start justify-between gap-4">
+                  <div>
+                    <h3 className="text-xl font-semibold">{c.name}</h3>
+                    <p className="mt-1.5 text-sm text-foreground/70">
+                      {c.desc}
+                    </p>
+                  </div>
+                </div>
+                <div className="mt-6 grid grid-cols-2 gap-3">
+                  {c.specs.map((s) => (
+                    <div
+                      key={s.label}
+                      className="flex items-center gap-2 rounded-xl bg-foreground/[0.03] px-3 py-2.5 text-sm"
+                    >
+                      <s.icon size={16} className="text-primary" />
+                      <span className="text-foreground/80">{s.label}</span>
+                    </div>
+                  ))}
+                </div>
+                <div className="mt-6 flex items-center justify-between border-t border-border pt-5">
+                  <span className="text-lg font-bold text-primary">
+                    {c.price}
+                  </span>
+                  <a
+                    href="#kontakt"
+                    className="rounded-full bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground transition hover:bg-primary/90"
+                  >
+                    Wynajmij
+                  </a>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
 function Index() {
   return (
     <div className="min-h-screen bg-white text-foreground">
@@ -516,10 +614,12 @@ function Index() {
       <main>
         <Hero />
         <Features />
+        <Cars />
         <WhyUs />
         <Steps />
         <Contact />
       </main>
+
       <Footer />
     </div>
   );
