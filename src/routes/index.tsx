@@ -22,6 +22,7 @@ import {
 import fabiaImg from "@/assets/fabia.png";
 import yarisImg from "@/assets/yaris.png";
 import logoAc from "@/assets/logo-ac.png";
+import boltLogo from "@/assets/bolt-logo.webp";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -51,10 +52,9 @@ function Logo() {
 function BoltBadge({ className = "" }: { className?: string }) {
   return (
     <span
-      className={`inline-flex items-center gap-1.5 rounded-full bg-foreground px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wider text-white ${className}`}
+      className={`inline-flex items-center gap-1.5 rounded-full bg-white px-2.5 py-1 shadow-sm ring-1 ring-black/5 ${className}`}
     >
-      <Zap size={12} className="fill-primary text-primary" />
-      Bolt
+      <img src={boltLogo} alt="Bolt" className="h-4 w-auto object-contain" />
     </span>
   );
 }
@@ -134,7 +134,7 @@ function Hero() {
         <div className="grid items-center gap-12 md:grid-cols-2">
           <div>
             <span className="inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary/5 px-3 py-1 text-xs font-semibold text-primary">
-              <Zap size={14} className="fill-primary" />
+              <img src={boltLogo} alt="Bolt" className="h-3.5 w-auto object-contain" />
               Oficjalny partner Bolt
             </span>
             <h1 className="mt-6 text-4xl font-bold leading-tight tracking-tight md:text-6xl">
