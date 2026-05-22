@@ -416,7 +416,7 @@ function Contact() {
               szczegółach współpracy.
             </p>
             <div className="mt-8 space-y-4">
-              <ContactItem icon={Phone} label="Telefon" value="+48 500 000 000" />
+              <ContactItem icon={Phone} label="Telefon" value="+48 501 675 324" />
               <ContactItem icon={Mail} label="E-mail" value="kontakt@acpartner.pl" />
               <ContactItem icon={MapPin} label="Biuro" value="Warszawa, Polska" />
             </div>
