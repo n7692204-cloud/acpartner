@@ -17,6 +17,7 @@ import {
   Users,
   Settings2,
   Snowflake,
+  Zap,
 } from "lucide-react";
 import fabiaImg from "@/assets/fabia.png";
 import yarisImg from "@/assets/yaris.png";
@@ -46,6 +47,19 @@ function Logo() {
     </div>
   );
 }
+
+function BoltBadge({ className = "" }: { className?: string }) {
+  return (
+    <span
+      className={`inline-flex items-center gap-1.5 rounded-full bg-foreground px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wider text-white ${className}`}
+    >
+      <Zap size={12} className="fill-primary text-primary" />
+      Bolt
+    </span>
+  );
+}
+
+
 
 
 function Nav() {
@@ -120,7 +134,7 @@ function Hero() {
         <div className="grid items-center gap-12 md:grid-cols-2">
           <div>
             <span className="inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary/5 px-3 py-1 text-xs font-semibold text-primary">
-              <span className="h-2 w-2 rounded-full bg-primary" />
+              <Zap size={14} className="fill-primary" />
               Oficjalny partner Bolt
             </span>
             <h1 className="mt-6 text-4xl font-bold leading-tight tracking-tight md:text-6xl">
@@ -504,6 +518,10 @@ function Footer() {
     <footer className="border-t border-border bg-white py-10">
       <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-4 md:flex-row">
         <Logo />
+        <div className="flex items-center gap-2 text-sm text-foreground/60">
+          <span>Oficjalny partner</span>
+          <BoltBadge />
+        </div>
         <p className="text-sm text-foreground/60">
           © {new Date().getFullYear()} AC Partner. Wszelkie prawa zastrzeżone.
         </p>
@@ -571,6 +589,7 @@ function Cars() {
                 <span className="absolute left-5 top-5 rounded-full bg-primary px-3 py-1 text-xs font-semibold text-primary-foreground">
                   {c.tag}
                 </span>
+                <BoltBadge className="absolute right-5 top-5" />
               </div>
               <div className="p-7">
                 <div className="flex items-start justify-between gap-4">
