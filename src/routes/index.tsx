@@ -585,7 +585,7 @@ function Cars() {
                 <span className="absolute left-5 top-5 rounded-full bg-primary px-3 py-1 text-xs font-semibold text-primary-foreground">
                   {c.tag}
                 </span>
-              </div>
+                <BoltBadge className="absolute right-5 top-5" />
               <div className="p-7">
                 <div className="flex items-start justify-between gap-4">
                   <div>
