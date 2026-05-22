@@ -39,7 +39,7 @@ export const Route = createFileRoute("/")({
 function Logo() {
   return (
     <div className="flex items-center gap-2">
-      <img src={logoAc} alt="AC Partner" className="h-10 w-auto object-contain" />
+      <img src={logoAc} alt="AC Partner" className="h-10 w-auto object-contain text-4xl" />
       <span className="text-lg font-semibold tracking-tight">
         AC <span className="text-primary">Partner</span>
       </span>
