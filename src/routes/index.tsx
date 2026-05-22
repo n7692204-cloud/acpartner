@@ -17,6 +17,7 @@ import {
   Users,
   Settings2,
   Snowflake,
+  Zap,
 } from "lucide-react";
 import fabiaImg from "@/assets/fabia.png";
 import yarisImg from "@/assets/yaris.png";
