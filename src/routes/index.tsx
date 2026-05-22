@@ -586,6 +586,7 @@ function Cars() {
                   {c.tag}
                 </span>
                 <BoltBadge className="absolute right-5 top-5" />
+              </div>
               <div className="p-7">
                 <div className="flex items-start justify-between gap-4">
                   <div>
