@@ -134,7 +134,7 @@ function Hero() {
         <div className="grid items-center gap-12 md:grid-cols-2">
           <div>
             <span className="inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary/5 px-3 py-1 text-xs font-semibold text-primary">
-              <span className="h-2 w-2 rounded-full bg-primary" />
+              <Zap size={14} className="fill-primary" />
               Oficjalny partner Bolt
             </span>
             <h1 className="mt-6 text-4xl font-bold leading-tight tracking-tight md:text-6xl">
