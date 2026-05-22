@@ -52,10 +52,9 @@ function Logo() {
 function BoltBadge({ className = "" }: { className?: string }) {
   return (
     <span
-      className={`inline-flex items-center gap-1.5 rounded-full bg-foreground px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wider text-white ${className}`}
+      className={`inline-flex items-center gap-1.5 rounded-full bg-white px-2.5 py-1 shadow-sm ring-1 ring-black/5 ${className}`}
     >
-      <Zap size={12} className="fill-primary text-primary" />
-      Bolt
+      <img src={boltLogo} alt="Bolt" className="h-4 w-auto object-contain" />
     </span>
   );
 }
