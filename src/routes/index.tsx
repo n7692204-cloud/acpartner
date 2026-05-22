@@ -168,7 +168,7 @@ function Hero() {
           <div className="relative">
             <div className="aspect-square rounded-3xl bg-gradient-to-br from-primary/20 via-primary/5 to-transparent p-1">
               <div className="flex h-full w-full items-center justify-center rounded-3xl bg-white">
-                <Car size={180} className="text-primary" strokeWidth={1.2} />
+                <Car size={180} className="text-primary text-4xl" strokeWidth={1.2} />
               </div>
             </div>
             <div className="absolute -bottom-6 -left-6 rounded-2xl border border-border bg-white p-4 shadow-xl">
