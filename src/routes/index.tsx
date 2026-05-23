@@ -337,7 +337,7 @@ function WhyUs() {
                 </p>
               </div>
               <div className="rounded-2xl bg-foreground p-6 text-white">
-                <p className="text-4xl font-bold">100+</p>
+                <p className="text-4xl font-bold">20+</p>
                 <p className="mt-2 text-sm opacity-90">Aut we flocie</p>
               </div>
             </div>
