@@ -331,7 +331,7 @@ function WhyUs() {
             </div>
             <div className="space-y-4 pt-8">
               <div className="rounded-2xl border border-border bg-white p-6">
-                <p className="text-4xl font-bold text-primary">3+</p>
+                <p className="text-4xl font-bold text-primary">25+</p>
                 <p className="mt-2 text-sm text-foreground/70">
                   Lata doświadczenia
                 </p>
