@@ -23,6 +23,7 @@ import fabiaImg from "@/assets/fabia.png";
 import yarisImg from "@/assets/yaris.png";
 import logoAc from "@/assets/logo-ac.png";
 import boltLogo from "@/assets/bolt-logo.png";
+import boltCarImg from "@/assets/bolt-car-warsaw.jpeg";
 
 export const Route = createFileRoute("/")({
   component: Index,
