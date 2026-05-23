@@ -190,7 +190,7 @@ function Hero() {
                 </div>
                 <div>
                   <p className="text-xs text-foreground/60">Wypłaty</p>
-                  <p className="text-lg font-bold">20+</p>
+                  <p className="text-lg font-bold">Co tydzień</p>
                 </div>
               </div>
             </div>
