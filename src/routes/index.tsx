@@ -523,8 +523,8 @@ function Footer() {
           <span>Oficjalny partner</span>
           <BoltBadge />
         </div>
-        <p className="text-sm text-foreground/60">
-          © {new Date().getFullYear()} AC Partner. Wszelkie prawa zastrzeżone.
+        <p className="text-sm text-foreground/60 text-center md:text-right">
+          © {new Date().getFullYear()} AC Partner. Powered By Auto Complex
         </p>
       </div>
     </footer>
