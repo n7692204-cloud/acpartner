@@ -23,6 +23,7 @@ import fabiaImg from "@/assets/fabia.png";
 import yarisImg from "@/assets/yaris.png";
 import logoAc from "@/assets/logo-ac.png";
 import boltLogo from "@/assets/bolt-logo.png";
+import boltCarImg from "@/assets/bolt-car-warsaw.jpeg";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -167,8 +168,8 @@ function Hero() {
           </div>
           <div className="relative">
             <div className="aspect-square rounded-3xl bg-gradient-to-br from-primary/20 via-primary/5 to-transparent p-1">
-              <div className="flex h-full w-full items-center justify-center rounded-3xl bg-white">
-                <Car size={180} className="text-primary text-4xl" strokeWidth={1.2} />
+              <div className="h-full w-full overflow-hidden rounded-3xl bg-white">
+                <img src={boltCarImg} alt="Auto Bolt na ulicy Warszawy" className="h-full w-full object-cover" />
               </div>
             </div>
             <div className="absolute -bottom-6 -left-6 rounded-2xl border border-border bg-white p-4 shadow-xl">
