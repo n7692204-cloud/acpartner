@@ -42,7 +42,7 @@ export const Route = createFileRoute("/")({
 function Logo() {
   return (
     <div className="flex items-center gap-3">
-      <img src={logoAc} alt="AC Partner" className="h-14 w-14 object-contain shrink-0" />
+      <img src={logoAc} alt="AC Partner" className="h-10 w-10 object-contain shrink-0" />
       <span className="text-lg font-semibold leading-none tracking-tight">
         AC <span className="text-primary">Partner</span>
       </span>
