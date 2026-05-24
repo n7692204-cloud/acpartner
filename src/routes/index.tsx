@@ -537,7 +537,7 @@ function Cars() {
       name: "Skoda Fabia",
       tag: "Ekonomiczna",
       image: fabiaImg,
-      desc: "Zwinna, oszczędna i niezawodna. Idealna do miejskich kursów.",
+      desc: "Zwinna, oszczędna i niezawodna. Idealna do miejskich kursów, wybierz jakość na którą możesz liczyc",
       specs: [
         { icon: Users, label: "4 pasażerów" },
         { icon: Fuel, label: "Benzyna / LPG" },
