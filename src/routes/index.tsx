@@ -575,7 +575,7 @@ function Cars() {
             są w pełni ubezpieczone i serwisowane.
           </p>
         </div>
-        <div className="mt-14 grid gap-8 md:grid-cols-2">
+        <div className="mt-14 grid gap-8 md:grid-cols-2 text-black bg-white">
           {cars.map((c) => (
             <div
               key={c.name}
