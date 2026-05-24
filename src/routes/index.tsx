@@ -585,7 +585,7 @@ function Cars() {
                 <img
                   src={c.image}
                   alt={c.name}
-                  className="h-full w-full object-contain p-4 transition duration-500 group-hover:scale-110"
+                  className="h-full w-full object-contain p-4 transition duration-500 group-hover:scale-110 bg-white"
                 />
                 <span className="absolute left-5 top-5 rounded-full bg-primary px-3 py-1 text-xs font-semibold text-primary-foreground">
                   {c.tag}
