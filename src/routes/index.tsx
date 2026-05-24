@@ -526,6 +526,9 @@ function Footer() {
         <p className="text-sm text-foreground/60 text-center md:text-right">
           © {new Date().getFullYear()} AC Partner. Powered By Auto Complex
         </p>
+        <p className="text-sm text-foreground/60 text-center md:text-right">
+          NIP: 9221567649
+        </p>
       </div>
     </footer>
   );
