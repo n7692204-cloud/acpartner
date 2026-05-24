@@ -18,7 +18,6 @@ import {
   Settings2,
   Snowflake,
   Zap,
-  Hash,
 } from "lucide-react";
 import fabiaImg from "@/assets/fabia.png";
 import yarisImg from "@/assets/yaris.png";
@@ -162,7 +161,7 @@ function Hero() {
               </a>
             </div>
             <div className="mt-10 grid grid-cols-3 gap-6 border-t border-border pt-8">
-              <Stat value="25+" label="Lata doświadczenia" />
+              <Stat value="500+" label="Kierowców" />
               <Stat value="24/7" label="Wsparcie" />
               <Stat value="48h" label="Start pracy" />
             </div>
@@ -296,10 +295,12 @@ function WhyUs() {
               Dlaczego AC Partner
             </span>
             <h2 className="mt-3 text-3xl font-bold tracking-tight md:text-4xl">
-              Solidność od 1999 roku
+              Partnerstwo, na którym możesz polegać
             </h2>
             <p className="mt-4 text-foreground/70">
-              Łączymy ogromne doświadczenie z zasadą pełnej uczciwości. Z nami jedziesz pewnie i przejrzyście.
+              Jesteśmy zaufanym partnerem Bolt i wspieramy kierowców na
+              każdym etapie współpracy. Stawiamy na uczciwość, transparentność
+              i nowoczesne podejście.
             </p>
             <ul className="mt-8 space-y-4">
               {points.map((p) => (
@@ -419,7 +420,6 @@ function Contact() {
               <ContactItem icon={Phone} label="Telefon" value="+48 501 675 324" />
               <ContactItem icon={Mail} label="E-mail" value="kontakt@acpartner.pl" />
               <ContactItem icon={MapPin} label="Biuro" value="Zamość, Polska" />
-              <ContactItem icon={Hash} label="NIP" value="9221567649" />
             </div>
           </div>
           <form
@@ -519,7 +519,7 @@ function Footer() {
     <footer className="border-t border-border bg-white py-10">
       <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-4 md:flex-row">
         <Logo />
-        <div className="items-center gap-2 text-sm text-foreground/60 flex flex-row text-center">
+        <div className="flex items-center gap-2 text-sm text-foreground/60">
           <span>Oficjalny partner</span>
           <BoltBadge />
         </div>
