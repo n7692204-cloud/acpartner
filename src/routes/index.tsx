@@ -295,12 +295,10 @@ function WhyUs() {
               Dlaczego AC Partner
             </span>
             <h2 className="mt-3 text-3xl font-bold tracking-tight md:text-4xl">
-              Partnerstwo, na którym możesz polegać
+              Solidność od 1999 roku
             </h2>
             <p className="mt-4 text-foreground/70">
-              Jesteśmy zaufanym partnerem Bolt i wspieramy kierowców na
-              każdym etapie współpracy. Stawiamy na uczciwość, transparentność
-              i nowoczesne podejście.
+              Łączymy ogromne doświadczenie z zasadą pełnej uczciwości. Z nami jedziesz pewnie i przejrzyście.
             </p>
             <ul className="mt-8 space-y-4">
               {points.map((p) => (
