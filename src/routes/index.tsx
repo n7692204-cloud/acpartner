@@ -18,6 +18,7 @@ import {
   Settings2,
   Snowflake,
   Zap,
+  Hash,
 } from "lucide-react";
 import fabiaImg from "@/assets/fabia.png";
 import yarisImg from "@/assets/yaris.png";
@@ -418,6 +419,15 @@ function Contact() {
               <ContactItem icon={Phone} label="Telefon" value="+48 501 675 324" />
               <ContactItem icon={Mail} label="E-mail" value="kontakt@acpartner.pl" />
               <ContactItem icon={MapPin} label="Biuro" value="Zamość, Polska" />
+              <div className="flex items-center gap-4 rounded-2xl bg-green-50 p-4 border border-green-200">
+                <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-green-100 text-green-600">
+                  <Hash size={20} />
+                </div>
+                <div>
+                  <p className="text-xs text-green-700">NIP</p>
+                  <p className="font-semibold text-green-900">9221567649</p>
+                </div>
+              </div>
             </div>
           </div>
           <form
