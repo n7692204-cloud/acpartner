@@ -560,7 +560,7 @@ function Cars() {
         { icon: Settings2, label: "Automat" },
         { icon: Snowflake, label: "Klimatyzacja" },
       ],
-      price: "od 950 zł / tydzień",
+      price: "od 450 zł / tydzień",
     },
   ];
   return (
