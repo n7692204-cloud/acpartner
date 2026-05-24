@@ -547,7 +547,7 @@ function Cars() {
         { icon: Settings2, label: "Manual" },
         { icon: Snowflake, label: "Klimatyzacja" },
       ],
-      price: "od 500 zł / tydzień",
+      price: "od 250 zł / tydzień",
     },
     {
       name: "Toyota Yaris",
