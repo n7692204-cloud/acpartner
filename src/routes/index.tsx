@@ -517,7 +517,7 @@ function Footer() {
     <footer className="border-t border-border bg-white py-10">
       <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-4 md:flex-row">
         <Logo />
-        <div className="flex items-center gap-2 text-sm text-foreground/60">
+        <div className="items-center gap-2 text-sm text-foreground/60 flex flex-row">
           <span>Oficjalny partner</span>
           <BoltBadge />
         </div>
