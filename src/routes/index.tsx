@@ -425,7 +425,7 @@ function Contact() {
                 </div>
                 <div>
                   <p className="text-xs text-green-700">NIP</p>
-                  <p className="font-semibold text-green-900">922-156-76-49</p>
+                  <p className="font-semibold text-green-900">9221567649</p>
                 </div>
               </div>
             </div>
