@@ -161,7 +161,7 @@ function Hero() {
               </a>
             </div>
             <div className="mt-10 grid grid-cols-3 gap-6 border-t border-border pt-8">
-              <Stat value="500+" label="Kierowców" />
+              <Stat value="25+" label="Lata doświadczenia" />
               <Stat value="24/7" label="Wsparcie" />
               <Stat value="48h" label="Start pracy" />
             </div>
