@@ -419,7 +419,7 @@ function Contact() {
               <ContactItem icon={Phone} label="Telefon" value="+48 501 675 324" />
               <ContactItem icon={Mail} label="E-mail" value="kontakt@acpartner.pl" />
               <ContactItem icon={MapPin} label="Biuro" value="Zamość, Polska" />
-              <div className="flex items-center gap-4 rounded-2xl bg-green-50 p-4 border border-green-200">
+              <div className="flex items-center gap-4 rounded-2xl p-4 border border-green-200 bg-white text-white">
                 <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-green-100 text-green-600">
                   <Hash size={20} />
                 </div>
