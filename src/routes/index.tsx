@@ -279,7 +279,7 @@ function Features() {
 
 function WhyUs() {
   const points = [
-    "Bezpłatna rejestracja i szybki proces wdrożenia",
+    "Firma działa od roku 1999",
     "Auta hybrydowe i ekonomiczne w eksploatacji",
     "Indywidualne podejście do każdego kierowcy",
     "Brak ukrytych kosztów – wszystko jasno opisane",
