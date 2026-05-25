@@ -300,7 +300,7 @@ function WhyUs() {
             <p className="mt-4 text-foreground/70">
               Jesteśmy zaufanym partnerem Bolt i wspieramy kierowców na
               każdym etapie współpracy. Stawiamy na uczciwość, transparentność
-              i nowoczesne podejście.
+              i nowoczesne podejście, nasze podejście i zaufanie do kierowców budujemy od roku 1999.
             </p>
             <ul className="mt-8 space-y-4">
               {points.map((p) => (
