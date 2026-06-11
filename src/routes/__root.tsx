@@ -72,14 +72,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "AC partner" },
+      { name: "description", content: "Szukasz rzetelnego partnera flotowego? Oferujemy dostęp do aplikacji Bolt na najlepszych warunkach rynkowych. Zajmujemy się całą stroną formalną i podatkową" },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "AC partner" },
+      { property: "og:description", content: "Szukasz rzetelnego partnera flotowego? Oferujemy dostęp do aplikacji Bolt na najlepszych warunkach rynkowych. Zajmujemy się całą stroną formalną i podatkową" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "AC partner" },
+      { name: "twitter:description", content: "Szukasz rzetelnego partnera flotowego? Oferujemy dostęp do aplikacji Bolt na najlepszych warunkach rynkowych. Zajmujemy się całą stroną formalną i podatkową" },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/ff081f0b-6014-49f8-8474-c05c86f31ef9/id-preview-8cdb6dd4--b8f9516b-dd63-48ce-9224-7af4819308e9.lovable.app-1779733196516.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/ff081f0b-6014-49f8-8474-c05c86f31ef9/id-preview-8cdb6dd4--b8f9516b-dd63-48ce-9224-7af4819308e9.lovable.app-1779733196516.png" },
     ],
     links: [
       {
